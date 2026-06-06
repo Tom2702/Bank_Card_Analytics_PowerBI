@@ -56,7 +56,7 @@ Key user pain points:
 - Transaction failure reasons need clearer prioritization.
 - Credit risk analysis needs to connect credit score, income group, debt exposure, and DTI ratio.
 
-![Empathize Slide Placeholder](assets/slides/01-empathize.png)
+<img width="3838" height="2159" alt="image" src="https://github.com/user-attachments/assets/f02c7278-ee3a-4f23-ae97-e28707f2e2f4" />
 
 ### 2. Define
 
@@ -74,7 +74,10 @@ Defined KPI groups:
 | Merchant Spend | Identify top merchant categories and spending patterns by card type |
 | Credit Risk | Monitor high-risk clients, credit score groups, DTI ratio, debt exposure, and insufficient balance transactions |
 
-![Define Slide Placeholder](assets/slides/02-define.png)
+<img width="3837" height="2158" alt="image" src="https://github.com/user-attachments/assets/51a2a54a-266e-41e5-9c01-a3a0b9bd6b91" />
+
+
+<img width="3834" height="2159" alt="image" src="https://github.com/user-attachments/assets/3387f4d2-1b01-456b-826b-3db7a41b1d3b" />
 
 ### 3. Ideate
 
