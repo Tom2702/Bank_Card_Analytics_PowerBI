@@ -1,4 +1,4 @@
-# Bank Card Performance & Risk Analytics
+# Bank Card Performance & Risk Analytics | PowerBI
 
 > A Power BI analytics project that evaluates bank card performance, customer value, merchant spending behavior, and credit risk exposure through an interactive dashboard built with a Design Thinking approach.
 
