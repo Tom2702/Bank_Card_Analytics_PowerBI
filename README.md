@@ -128,35 +128,11 @@ Review checklist:
 
 <img width="3839" height="2159" alt="Screenshot 2026-06-06 114422" src="https://github.com/user-attachments/assets/9d240012-b228-420b-9ef9-35ef4ae948de" />
 
-## Dashboard Preview
-
-### Data Model
-
-<img width="1266" height="962" alt="Screenshot 2026-06-06 104558" src="https://github.com/user-attachments/assets/6ed12438-d6f6-4127-a74a-93fc1a252bb3" />
-
-### Performance Overview
-
-<img width="2818" height="1580" alt="Screenshot 2026-06-06 104532" src="https://github.com/user-attachments/assets/ed1f648b-e9cc-4f43-9bf2-c1bd78911320" />
-
-### Customer Value
-
-<img width="2845" height="1607" alt="Screenshot 2026-06-06 104430" src="https://github.com/user-attachments/assets/1438c865-a2ee-4453-ac53-1de70adb544b" />
-
-### Card Performance
-
-<img width="2816" height="1583" alt="Screenshot 2026-06-06 104250" src="https://github.com/user-attachments/assets/119e1985-4a23-4204-b414-69fa82fc918a" />
-
-### Merchant Spend
-
-<img width="2807" height="1584" alt="Screenshot 2026-06-06 104157" src="https://github.com/user-attachments/assets/1d1b32aa-8788-4bfe-86d2-889b92d0628f" />
-
-### Credit Risk
-
-<img width="2556" height="1456" alt="Screenshot 2026-06-06 104133" src="https://github.com/user-attachments/assets/0bbbc25d-4af7-49b2-a852-7820a0264e39" />
-
 ## Data Model
 
 The Power BI report uses a star-schema-style model with a central transaction fact table connected to supporting dimension tables.
+
+<img width="1266" height="962" alt="Screenshot 2026-06-06 104558" src="https://github.com/user-attachments/assets/6ed12438-d6f6-4127-a74a-93fc1a252bb3" />
 
 | Table | Description |
 |---|---|
@@ -199,6 +175,8 @@ Model highlights:
 
 The bank card portfolio generated approximately **$1.97M** in total spend with **45K successful transactions** and a strong overall **98.2% success rate**.
 
+<img width="2818" height="1580" alt="Screenshot 2026-06-06 104532" src="https://github.com/user-attachments/assets/ed1f648b-e9cc-4f43-9bf2-c1bd78911320" />
+
 Key observations:
 
 - Monthly card spend remained relatively stable, ranging from about **$184K in February** to **$208K in January**.
@@ -215,6 +193,8 @@ Business interpretation:
 ### 2. Customer Value
 
 The customer base includes **2,000 clients**, but only **301 active clients** are currently generating card activity.
+
+<img width="2845" height="1607" alt="Screenshot 2026-06-06 104430" src="https://github.com/user-attachments/assets/1438c865-a2ee-4453-ac53-1de70adb544b" />
 
 Segment-level findings:
 
@@ -242,6 +222,8 @@ Business interpretation:
 
 The dashboard shows **853 active cards**, an **active card rate of 13.9%**, and an average of **53 transactions per card**.
 
+<img width="2816" height="1583" alt="Screenshot 2026-06-06 104250" src="https://github.com/user-attachments/assets/119e1985-4a23-4204-b414-69fa82fc918a" />
+
 Card type performance:
 
 | Card Type | Total Spend | Share of Spend | Active Cards | Avg Tx/Card |
@@ -268,6 +250,8 @@ Business interpretation:
 
 The Merchant Spend dashboard view shows approximately **$2.37M** in spend, **55K successful transactions**, an average transaction value of **$43.37**, and a **98.4% success rate**.
 
+<img width="2807" height="1584" alt="Screenshot 2026-06-06 104157" src="https://github.com/user-attachments/assets/1d1b32aa-8788-4bfe-86d2-889b92d0628f" />
+
 Top merchant categories by spend:
 
 | Rank | Merchant Category | Spend |
@@ -293,6 +277,8 @@ Business interpretation:
 ### 5. Credit Risk
 
 The Credit Risk page identifies **70 high-risk clients**, a **23.3% high-risk client rate**, an average credit score of **718**, and a DTI ratio of **1.27**.
+
+<img width="2556" height="1456" alt="Screenshot 2026-06-06 104133" src="https://github.com/user-attachments/assets/0bbbc25d-4af7-49b2-a852-7820a0264e39" />
 
 Risk distribution findings:
 
