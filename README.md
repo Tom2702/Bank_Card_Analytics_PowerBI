@@ -223,61 +223,6 @@ Based on the dashboard analysis:
 - **Design Thinking**: User-centered dashboard planning and validation
 - **PowerPoint**: Project presentation and storytelling
 
-## Repository Structure
-
-```text
-bank-card-performance-risk-analytics/
-|
-|-- README.md
-|-- Bank Card Project.pbix
-|-- Design Thinking Bank Project - Design Thinking Ver 4.csv
-|-- Design_Thinking_Bank_Project_Presentation.pptx
-|
-|-- assets/
-|   |-- screenshots/
-|   |   |-- 00-data-model.png
-|   |   |-- 01-performance-overview.png
-|   |   |-- 02-customer-value.png
-|   |   |-- 03-card-performance.png
-|   |   |-- 04-merchant-spend.png
-|   |   |-- 05-credit-risk.png
-|   |
-|   |-- slides/
-|       |-- slide-01.png
-|       |-- slide-02.png
-|       |-- slide-03.png
-|
-|-- docs/
-|   |-- project-notes.md
-```
-
-## How to Use
-
-1. Clone this repository.
-
-```bash
-git clone https://github.com/your-username/bank-card-performance-risk-analytics.git
-```
-
-2. Open the Power BI file.
-
-```text
-Bank Card Project.pbix
-```
-
-3. Review the data model and report pages in Power BI Desktop.
-
-4. Export dashboard screenshots and place them in:
-
-```text
-assets/screenshots/
-```
-
-5. Export presentation slide images and place them in:
-
-```text
-assets/slides/
-```
 
 ## Future Improvements
 
@@ -288,25 +233,6 @@ assets/slides/
 - Add drill-through pages for customer, card, and merchant-level investigation
 - Create a formal business recommendation section based on stakeholder priorities
 
-## Project Files
 
-| File | Description |
-|---|---|
-| `Bank Card Project.pbix` | Main Power BI dashboard file |
-| `Design Thinking Bank Project - Design Thinking Ver 4.csv` | Design Thinking documentation and project planning file |
-| `Design_Thinking_Bank_Project_Presentation.pptx` | Project presentation deck |
-| `README.md` | GitHub project documentation |
 
-## Author
-
-**Your Name**  
-Data Analyst | Power BI Developer
-
-- GitHub: [your-github-profile](https://github.com/your-username)
-- LinkedIn: [your-linkedin-profile](https://www.linkedin.com/in/your-linkedin)
-- Portfolio: [your-portfolio-link](https://your-portfolio-link.com)
-
-## License
-
-This project is intended for educational and portfolio purposes.
 
