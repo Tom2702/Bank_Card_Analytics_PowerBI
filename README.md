@@ -1,4 +1,4 @@
-# Bank Card Performance & Risk Analytics
+<img width="3839" height="2159" alt="Screenshot 2026-06-06 114412" src="https://github.com/user-attachments/assets/aa1b3205-daa8-472a-abe7-9895f7b6769d" /># Bank Card Performance & Risk Analytics
 
 > A Power BI analytics project that evaluates bank card performance, customer value, merchant spending behavior, and credit risk exposure through an interactive dashboard built with a Design Thinking approach.
 
@@ -56,7 +56,7 @@ Key user pain points:
 - Transaction failure reasons need clearer prioritization.
 - Credit risk analysis needs to connect credit score, income group, debt exposure, and DTI ratio.
 
-<img width="3839" height="2159" alt="image" src="https://github.com/user-attachments/assets/a76cd667-66e2-42c9-813e-13e2568d4b4e" />
+<img width="3838" height="2158" alt="image" src="https://github.com/user-attachments/assets/a34ed622-af02-43a4-bdaf-30a20d237e62" />
 
 ### 2. Define
 
@@ -74,11 +74,11 @@ Defined KPI groups:
 | Merchant Spend | Identify top merchant categories and spending patterns by card type |
 | Credit Risk | Monitor high-risk clients, credit score groups, DTI ratio, debt exposure, and insufficient balance transactions |
 
-<img width="3837" height="2158" alt="image" src="https://github.com/user-attachments/assets/51a2a54a-266e-41e5-9c01-a3a0b9bd6b91" />
+<img width="3832" height="2159" alt="Screenshot 2026-06-06 114323" src="https://github.com/user-attachments/assets/d823f6a6-bd82-48e1-b64e-c94cb157c8e9" />
 
 
 
-<img width="3834" height="2159" alt="image" src="https://github.com/user-attachments/assets/3387f4d2-1b01-456b-826b-3db7a41b1d3b" />
+<img width="3839" height="2158" alt="Screenshot 2026-06-06 114348" src="https://github.com/user-attachments/assets/74d09b15-8275-4134-90e5-580fa5253d79" />
 
 ### 3. Ideate
 
@@ -98,7 +98,7 @@ Interaction ideas:
 - Income group and credit score filters for risk segmentation
 - Toggle-style views to switch between card type and card brand analysis
 
-<img width="3835" height="2156" alt="image" src="https://github.com/user-attachments/assets/51675c8f-c3d8-4d13-8a15-0508ebef5824" />
+<img width="3839" height="2159" alt="Screenshot 2026-06-06 114401" src="https://github.com/user-attachments/assets/9625523e-7767-4b8b-8220-9a07830fa1cc" />
 
 ### 4. Prototype
 
@@ -111,7 +111,7 @@ Prototype goals:
 - Combine summary KPIs with detailed breakdowns.
 - Keep the dashboard suitable for both executive review and deeper analysis.
 
-<img width="3839" height="2159" alt="image" src="https://github.com/user-attachments/assets/d9bbe664-6e0f-451a-8ae1-dd66d2c4045b" />
+<img width="3839" height="2159" alt="Screenshot 2026-06-06 114412" src="https://github.com/user-attachments/assets/8f390f4c-87ff-46b6-a958-c5eace58f299" />
 
 ### 5. Review
 
@@ -126,7 +126,7 @@ Review checklist:
 - Can users monitor credit risk by income, credit score, DTI ratio, and debt exposure?
 - Can users turn dashboard findings into business actions?
 
-<img width="3839" height="2159" alt="image" src="https://github.com/user-attachments/assets/4eb8a277-7a58-4bf4-9350-52180835cc27" />
+<img width="3839" height="2159" alt="Screenshot 2026-06-06 114422" src="https://github.com/user-attachments/assets/9d240012-b228-420b-9ef9-35ef4ae948de" />
 
 ## Dashboard Preview
 
