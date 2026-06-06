@@ -56,7 +56,7 @@ Key user pain points:
 - Transaction failure reasons need clearer prioritization.
 - Credit risk analysis needs to connect credit score, income group, debt exposure, and DTI ratio.
 
-<img width="3838" height="2159" alt="image" src="https://github.com/user-attachments/assets/f02c7278-ee3a-4f23-ae97-e28707f2e2f4" />
+<img width="3839" height="2159" alt="image" src="https://github.com/user-attachments/assets/a76cd667-66e2-42c9-813e-13e2568d4b4e" />
 
 ### 2. Define
 
@@ -75,6 +75,7 @@ Defined KPI groups:
 | Credit Risk | Monitor high-risk clients, credit score groups, DTI ratio, debt exposure, and insufficient balance transactions |
 
 <img width="3837" height="2158" alt="image" src="https://github.com/user-attachments/assets/51a2a54a-266e-41e5-9c01-a3a0b9bd6b91" />
+
 
 
 <img width="3834" height="2159" alt="image" src="https://github.com/user-attachments/assets/3387f4d2-1b01-456b-826b-3db7a41b1d3b" />
@@ -97,7 +98,7 @@ Interaction ideas:
 - Income group and credit score filters for risk segmentation
 - Toggle-style views to switch between card type and card brand analysis
 
-![Ideate Slide Placeholder](assets/slides/03-ideate.png)
+<img width="3835" height="2156" alt="image" src="https://github.com/user-attachments/assets/51675c8f-c3d8-4d13-8a15-0508ebef5824" />
 
 ### 4. Prototype
 
@@ -110,7 +111,7 @@ Prototype goals:
 - Combine summary KPIs with detailed breakdowns.
 - Keep the dashboard suitable for both executive review and deeper analysis.
 
-![Prototype Slide Placeholder](assets/slides/04-prototype.png)
+<img width="3839" height="2159" alt="image" src="https://github.com/user-attachments/assets/d9bbe664-6e0f-451a-8ae1-dd66d2c4045b" />
 
 ### 5. Review
 
@@ -125,7 +126,7 @@ Review checklist:
 - Can users monitor credit risk by income, credit score, DTI ratio, and debt exposure?
 - Can users turn dashboard findings into business actions?
 
-![Review Slide Placeholder](assets/slides/05-review.png)
+<img width="3839" height="2159" alt="image" src="https://github.com/user-attachments/assets/4eb8a277-7a58-4bf4-9350-52180835cc27" />
 
 ## Dashboard Preview
 
