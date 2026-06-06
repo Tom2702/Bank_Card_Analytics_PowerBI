@@ -1,4 +1,4 @@
-<img width="3839" height="2159" alt="Screenshot 2026-06-06 114412" src="https://github.com/user-attachments/assets/aa1b3205-daa8-472a-abe7-9895f7b6769d" /># Bank Card Performance & Risk Analytics
+# Bank Card Performance & Risk Analytics
 
 > A Power BI analytics project that evaluates bank card performance, customer value, merchant spending behavior, and credit risk exposure through an interactive dashboard built with a Design Thinking approach.
 
