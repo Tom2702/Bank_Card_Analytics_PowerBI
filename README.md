@@ -130,31 +130,29 @@ Review checklist:
 
 ## Dashboard Preview
 
-> Replace the image paths below with your exported dashboard screenshots after uploading them to your GitHub repository.
-
 ### Data Model
 
-![Data Model Placeholder](assets/screenshots/00-data-model.png)
+<img width="1266" height="962" alt="Screenshot 2026-06-06 104558" src="https://github.com/user-attachments/assets/6ed12438-d6f6-4127-a74a-93fc1a252bb3" />
 
 ### Performance Overview
 
-![Performance Overview Dashboard Placeholder](assets/screenshots/01-performance-overview.png)
+<img width="2818" height="1580" alt="Screenshot 2026-06-06 104532" src="https://github.com/user-attachments/assets/ed1f648b-e9cc-4f43-9bf2-c1bd78911320" />
 
 ### Customer Value
 
-![Customer Value Dashboard Placeholder](assets/screenshots/02-customer-value.png)
+<img width="2845" height="1607" alt="Screenshot 2026-06-06 104430" src="https://github.com/user-attachments/assets/1438c865-a2ee-4453-ac53-1de70adb544b" />
 
 ### Card Performance
 
-![Card Performance Dashboard Placeholder](assets/screenshots/03-card-performance.png)
+<img width="2816" height="1583" alt="Screenshot 2026-06-06 104250" src="https://github.com/user-attachments/assets/119e1985-4a23-4204-b414-69fa82fc918a" />
 
 ### Merchant Spend
 
-![Merchant Spend Dashboard Placeholder](assets/screenshots/04-merchant-spend.png)
+<img width="2807" height="1584" alt="Screenshot 2026-06-06 104157" src="https://github.com/user-attachments/assets/1d1b32aa-8788-4bfe-86d2-889b92d0628f" />
 
 ### Credit Risk
 
-![Credit Risk Dashboard Placeholder](assets/screenshots/05-credit-risk.png)
+<img width="2556" height="1456" alt="Screenshot 2026-06-06 104133" src="https://github.com/user-attachments/assets/0bbbc25d-4af7-49b2-a852-7820a0264e39" />
 
 ## Data Model
 
