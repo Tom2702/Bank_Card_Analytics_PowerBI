@@ -7,22 +7,6 @@
 ![Data Modeling](https://img.shields.io/badge/Data%20Modeling-Star%20Schema-2E7D32?style=for-the-badge)
 
 
-## Table of Contents
-
-- [Project Overview](#project-overview)
-- [Business Objectives](#business-objectives)
-- [Design Thinking Approach](#design-thinking-approach)
-- [Dashboard Preview](#dashboard-preview)
-- [Data Model](#data-model)
-- [Dashboard Pages](#dashboard-pages)
-- [Key Metrics](#key-metrics)
-- [Key Insights](#key-insights)
-- [Tools & Technologies](#tools--technologies)
-- [Repository Structure](#repository-structure)
-- [How to Use](#how-to-use)
-- [Future Improvements](#future-improvements)
-- [Author](#author)
-
 ## Project Overview
 
 This project analyzes bank card transaction performance and risk indicators using Power BI. The dashboard is designed to help business stakeholders monitor card spend, transaction success, customer value, merchant behavior, product performance, and credit risk exposure in one centralized analytical report.
