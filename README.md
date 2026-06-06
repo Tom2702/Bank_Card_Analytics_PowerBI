@@ -334,14 +334,6 @@ Business interpretation:
 - **Design Thinking**: User-centered dashboard planning and validation
 - **PowerPoint**: Project presentation and storytelling
 
-## Project Files
-
-| File | Description |
-|---|---|
-| `Bank Card Project.pbix` | Main Power BI dashboard file |
-| `Design Thinking Bank Project - Design Thinking Ver 4.csv` | Design Thinking documentation and project planning file |
-| `Design_Thinking_Bank_Project_Presentation.pptx` | Project presentation deck |
-| `README.md` | GitHub project documentation |
 
 ## Future Improvements
 
