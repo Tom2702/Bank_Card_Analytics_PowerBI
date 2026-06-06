@@ -5,7 +5,7 @@
 ![Power BI](https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![DAX](https://img.shields.io/badge/DAX-Measures-0F6B78?style=for-the-badge)
 ![Data Modeling](https://img.shields.io/badge/Data%20Modeling-Star%20Schema-2E7D32?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Completed-1EAD62?style=for-the-badge)
+
 
 ## Table of Contents
 
