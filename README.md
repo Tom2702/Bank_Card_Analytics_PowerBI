@@ -1,4 +1,4 @@
-# Bank Card Performance & Risk Analytics | PowerBI
+<img width="2888" height="1629" alt="image" src="https://github.com/user-attachments/assets/3039b20d-f5a7-43c0-9e0d-86592df521ca" /># Bank Card Performance & Risk Analytics | PowerBI
 
 > A Power BI analytics project that evaluates bank card performance, customer value, merchant spending behavior, and credit risk exposure through an interactive dashboard built with a Design Thinking approach.
 
@@ -186,7 +186,8 @@ Segment-level findings:
 
 The Merchant Spend dashboard view shows approximately **$2.37M** in spend, **55K successful transactions**, an average transaction value of **$43.37**, and a **98.4% success rate**.
 
-<img width="2883" height="1629" alt="image" src="https://github.com/user-attachments/assets/43ac40c6-9b41-4892-a388-dd49a0aa0d66" />
+<img width="2888" height="1629" alt="image" src="https://github.com/user-attachments/assets/6d7350c2-0850-4fad-af7f-7cc358e03b3e" />
+
 
 Top merchant categories by spend:
 
