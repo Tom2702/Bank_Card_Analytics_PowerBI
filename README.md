@@ -23,7 +23,29 @@ This project focuses on answering the following business questions:
 - Where are dormant card opportunities concentrated?
 - Which income, credit score, and DTI groups create the highest risk exposure?
 - What are the most common transaction failure reasons and how can they be reduced?
+- 
+## Data Model
 
+The Power BI report uses a star-schema-style model with a central transaction fact table connected to supporting dimension tables.
+
+<img width="1266" height="962" alt="Screenshot 2026-06-06 104558" src="https://github.com/user-attachments/assets/6ed12438-d6f6-4127-a74a-93fc1a252bb3" />
+
+| Table | Description |
+|---|---|
+| `fact_transactions_data` | Transaction-level fact table containing spend amount, card ID, client ID, transaction date, MCC, credit score, and transaction error information |
+| `dim_cards_data` | Card-level attributes such as card type, card brand, credit limit, account open date, and client mapping |
+| `dim_users_data` | Customer-level attributes such as age group, client segment, credit score group, income group, and DTI-related fields |
+| `dim_fact_mcc_codes` | Merchant category code mapping table containing MCC descriptions |
+| `dim_date` | Calendar dimension used for monthly, quarterly, and time-based analysis |
+
+Model highlights:
+
+- Centralized fact table for transaction and spend analysis
+- One-to-many relationships from dimensions to transaction data
+- Dedicated date table for time-based reporting
+- Segmentation fields for customer value, credit score, credit limit, income group, and DTI category
+- DAX measures used for KPI cards, monthly comparisons, rates, and business metrics
+  
 ## Design Thinking Approach
 
 The dashboard was developed using a Design Thinking framework to ensure the final report is not only visually clear, but also aligned with business users' real decision-making needs.
@@ -67,47 +89,6 @@ The core problem was defined as:
 
 <img width="3839" height="2159" alt="Screenshot 2026-06-06 114401" src="https://github.com/user-attachments/assets/9625523e-7767-4b8b-8220-9a07830fa1cc" />
 
-## Data Model
-
-The Power BI report uses a star-schema-style model with a central transaction fact table connected to supporting dimension tables.
-
-<img width="1266" height="962" alt="Screenshot 2026-06-06 104558" src="https://github.com/user-attachments/assets/6ed12438-d6f6-4127-a74a-93fc1a252bb3" />
-
-| Table | Description |
-|---|---|
-| `fact_transactions_data` | Transaction-level fact table containing spend amount, card ID, client ID, transaction date, MCC, credit score, and transaction error information |
-| `dim_cards_data` | Card-level attributes such as card type, card brand, credit limit, account open date, and client mapping |
-| `dim_users_data` | Customer-level attributes such as age group, client segment, credit score group, income group, and DTI-related fields |
-| `dim_fact_mcc_codes` | Merchant category code mapping table containing MCC descriptions |
-| `dim_date` | Calendar dimension used for monthly, quarterly, and time-based analysis |
-
-Model highlights:
-
-- Centralized fact table for transaction and spend analysis
-- One-to-many relationships from dimensions to transaction data
-- Dedicated date table for time-based reporting
-- Segmentation fields for customer value, credit score, credit limit, income group, and DTI category
-- DAX measures used for KPI cards, monthly comparisons, rates, and business metrics
-
-## Key Metrics
-
-| Metric | Value Shown in Dashboard | Business Meaning |
-|---|---:|---|
-| Total Spend | `$1.97M` | Total card spend generated from successful card activity |
-| Total Success Transactions | `45K` | Number of successful transactions |
-| Average Transaction Value | `$43.52` | Average spend per successful transaction |
-| Active Card Rate | `13.9%` | Share of cards with active usage |
-| Success Rate | `98.2%` | Share of transactions completed successfully |
-| Total Clients | `2,000` | Total customer base included in the analysis |
-| Active Clients | `301` | Customers with active card usage |
-| Active Cards | `853` | Cards with transaction activity |
-| High-Risk Clients | `70` | Clients classified as high-risk |
-| High-Risk Client Rate | `23.3%` | Share of active clients classified as high-risk |
-| Average Credit Score | `718` | Average score across the analyzed customer group |
-| DTI Ratio | `1.27` | Debt-to-income indicator used for risk analysis |
-
-> Note: Dashboard values depend on slicer selections. The screenshots used in this README mainly show 2024 performance views, while the Merchant Spend page is shown with a 2023 year filter.
-
 ## Detailed Insights
 
 ### 1. Performance Overview
@@ -116,7 +97,7 @@ The bank card portfolio generated approximately **$1.97M** in total spend with *
 
 <img width="2818" height="1580" alt="Screenshot 2026-06-06 104532" src="https://github.com/user-attachments/assets/ed1f648b-e9cc-4f43-9bf2-c1bd78911320" />
 
-Key observations:
+**Key observations:**
 
 - Monthly card spend remained relatively stable, ranging from about **$184K in February** to **$208K in January**.
 - Successful transaction volume ranged from around **4.2K to 4.7K transactions per month**, with October showing the highest transaction count.
@@ -124,7 +105,7 @@ Key observations:
 - Active card rate was **13.9%**, indicating that a large share of issued cards still had no recent activity.
 - The biggest failure reason was **Insufficient Balance**, with **534 failed transactions**, far higher than **Bad PIN** at **115** and **Technical Glitch** at **93**.
 
-Business interpretation:
+**Business interpretation:**
 
 - The card business has stable transaction performance, but card activation remains a major growth opportunity.
 - Insufficient balance is the main operational friction point and should be monitored as both a customer experience and risk signal.
@@ -144,7 +125,7 @@ Segment-level findings:
 | High Value | `$476K` | `29` | `$16.4K` |
 | Upper Mid Value | `$456K` | `47` | `$9.7K` |
 
-Key observations:
+**Key observations:**
 
 - **Inactive clients account for 1,697 clients**, or about **84.85%** of the total client base.
 - Low Value clients generate the highest total spend because they have the largest active population.
@@ -152,7 +133,7 @@ Key observations:
 - High DTI customers contributed about **$753K**, the largest spend among DTI groups.
 - The dashboard indicates that age group, income group, DTI category, and client segment all influence total card spend.
 
-Business interpretation:
+**Business interpretation:**
 
 - The bank should treat customer growth as two separate strategies: activate the large inactive base and retain high-value clients with stronger personalized offers.
 - High DTI spend should be monitored carefully because it can represent both revenue opportunity and potential credit risk.
@@ -171,7 +152,7 @@ Card type performance:
 | Credit | `$761K` | `39%` | `284` | `48` |
 | Debit Prepaid | `$59K` | `3%` | `70` | `37` |
 
-Key observations:
+**Key observations:**
 
 - Debit cards dominate total spend, contributing about **58%** of total card spend.
 - Credit cards still contribute a meaningful **39%** of total spend, but have fewer active cards than debit.
@@ -180,7 +161,7 @@ Key observations:
 - Total dormant cards across the three card types are approximately **5,293**, which is about **6.2 times** the number of active cards.
 - Medium credit limit cards generated the highest spend at about **$848K** and the strongest active card rate at **15.4%**.
 
-Business interpretation:
+**Business interpretation:**
 
 - Debit cards are the strongest current product, but dormant cards represent the largest immediate activation opportunity.
 - Medium credit limit cards appear to balance spend potential and activity rate well, making them a useful benchmark for product targeting.
@@ -201,14 +182,14 @@ Top merchant categories by spend:
 | 4 | Drug Stores and Pharmacies | `$147K` |
 | 5 | Service Stations | `$131K` |
 
-Key observations:
+**Key observations:**
 
 - The top three merchant categories generated about **$534K**, representing roughly **22.5%** of the selected Merchant Spend view.
 - Everyday categories such as grocery, pharmacy, service stations, utilities, and restaurants appear frequently in the top spend categories.
 - Some categories have much higher average transaction values, such as **Cruise Lines at $1,188**, **Bolt/Nut/Screw/Rivet Manufacturing at $1,034**, and **Tools/Parts/Supplies Manufacturing at $918**.
 - Debit and credit cards both contribute strongly across merchant categories, while prepaid debit contributes much less.
 
-Business interpretation:
+**Business interpretation:**
 
 - Everyday merchant categories should be prioritized for loyalty offers and partnership campaigns because they drive recurring spend.
 - High-ticket merchant categories should be reviewed separately because they may create large spend impact with lower transaction frequency.
@@ -231,14 +212,14 @@ Risk distribution findings:
 | Debt Exposure by Credit Score | Good score clients carry the largest debt exposure at about **$1.338B** |
 | Poor Credit Score Group | Smallest group, but highest high-risk rate at about **60%** |
 
-Key observations:
+**Key observations:**
 
 - Risk is not limited to customers with low credit scores. The Good credit score group has the largest debt exposure by volume.
 - The Poor credit score group has only a small number of clients, but its high-risk rate is the highest.
 - Low Income customers have the highest count of high-risk clients, while Lower-Mid Income customers show the highest DTI pressure.
 - Insufficient Balance transactions reached **534**, making it an important behavioral warning signal.
 
-Business interpretation:
+**Business interpretation:**
 
 - Credit risk monitoring should combine credit score, DTI ratio, income group, and debt exposure instead of relying on credit score alone.
 - The bank should separately monitor high-volume debt groups and high-risk-rate groups because they represent different types of risk.
@@ -252,22 +233,4 @@ Business interpretation:
 - **Monitor DTI-heavy customers**: High DTI customers generate meaningful spend, but should be tracked carefully for credit risk.
 - **Improve risk segmentation**: Combine credit score, income group, debt exposure, and DTI ratio to identify risk more accurately.
 
-## Tools & Technologies
-
-- **Power BI Desktop**: Dashboard development and data visualization
-- **Power Query**: Data cleaning, transformation, and shaping
-- **DAX**: KPI measures, calculated logic, and analytical metrics
-- **Data Modeling**: Star schema, relationships, and date dimension
-- **Design Thinking**: User-centered dashboard planning and validation
-- **PowerPoint**: Project presentation and storytelling
-
-
-## Future Improvements
-
-- Publish the report to Power BI Service for scheduled refresh and stakeholder sharing
-- Add drill-through pages for client, card, and merchant-level investigation
-- Add predictive scoring for high-risk client detection
-- Add customer lifetime value analysis
-- Add row-level security for different stakeholder groups
-- Convert business recommendations into a formal action plan with owners and timelines
 
