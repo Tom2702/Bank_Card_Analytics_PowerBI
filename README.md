@@ -130,7 +130,7 @@ The bank card portfolio generated approximately **$1.97M** in total spend with *
 
 The dashboard shows **853 active cards**, an **active card rate of 13.9%**, and an average of **53 transactions per card**.
 
-<img width="2884" height="1626" alt="image" src="https://github.com/user-attachments/assets/fa74950e-6019-4393-a98f-c2af1eb45b22" />
+<img width="2898" height="1643" alt="image" src="https://github.com/user-attachments/assets/565de9df-deb8-4c06-8993-2fa6c7967211" />
 
 Card type performance:
 
