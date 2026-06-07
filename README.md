@@ -56,15 +56,6 @@ The core problem was defined as:
 
 > Bank card stakeholders need an interactive dashboard that connects transaction performance, customer value, merchant behavior, card usage, and credit risk so they can identify growth opportunities, operational issues, and risk exposure faster.
 
-Defined KPI groups:
-
-| KPI Group | Business Purpose |
-|---|---|
-| Transaction Performance | Track total spend, successful transactions, average transaction value, and success rate |
-| Customer Value | Identify active clients, high-value segments, and spending behavior by DTI category |
-| Card Product Performance | Compare card type, card brand, active card rate, credit limit group, and dormant card opportunity |
-| Merchant Spend | Identify top merchant categories and spending patterns by card type |
-| Credit Risk | Monitor high-risk clients, credit score groups, DTI ratio, debt exposure, and insufficient balance transactions |
 
 <img width="3832" height="2159" alt="Screenshot 2026-06-06 114323" src="https://github.com/user-attachments/assets/d823f6a6-bd82-48e1-b64e-c94cb157c8e9" />
 
