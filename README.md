@@ -67,34 +67,6 @@ The core problem was defined as:
 
 <img width="3839" height="2159" alt="Screenshot 2026-06-06 114401" src="https://github.com/user-attachments/assets/9625523e-7767-4b8b-8220-9a07830fa1cc" />
 
-### 4. Prototype
-
-The prototype was built in Power BI using a star-schema-style data model, DAX measures, calculated segmentation fields, KPI cards, trend charts, matrix visuals, decomposition tree, and interactive slicers.
-
-Prototype goals:
-
-- Make KPI performance visible in the first row of each dashboard page.
-- Use consistent colors across pages to improve readability.
-- Combine summary KPIs with detailed breakdowns.
-- Keep the dashboard suitable for both executive review and deeper analysis.
-
-<img width="3839" height="2159" alt="Screenshot 2026-06-06 114412" src="https://github.com/user-attachments/assets/8f390f4c-87ff-46b6-a958-c5eace58f299" />
-
-### 5. Review
-
-The final dashboard was reviewed against the original business questions.
-
-Review checklist:
-
-- Can users identify total spend, transaction volume, and success rate quickly?
-- Can users compare customer value segments and active client behavior?
-- Can users detect dormant card opportunities by card type?
-- Can users identify top merchant categories by spend and transaction count?
-- Can users monitor credit risk by income, credit score, DTI ratio, and debt exposure?
-- Can users turn dashboard findings into business actions?
-
-<img width="3839" height="2159" alt="Screenshot 2026-06-06 114422" src="https://github.com/user-attachments/assets/9d240012-b228-420b-9ef9-35ef4ae948de" />
-
 ## Data Model
 
 The Power BI report uses a star-schema-style model with a central transaction fact table connected to supporting dimension tables.
