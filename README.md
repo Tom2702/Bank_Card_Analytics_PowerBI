@@ -111,7 +111,7 @@ The dashboard pages were organized into a business analysis flow:
 
 The bank card portfolio generated approximately **$1.97M** in total spend with **45K successful transactions** and a strong overall **98.2% success rate**.
 
-<img width="2818" height="1580" alt="Screenshot 2026-06-06 104532" src="https://github.com/user-attachments/assets/ed1f648b-e9cc-4f43-9bf2-c1bd78911320" />
+<img width="2890" height="1628" alt="image" src="https://github.com/user-attachments/assets/b35e1e37-6e71-4315-bd40-c04a53a766e6" />
 
 **Key observations:**
 
@@ -130,7 +130,7 @@ The bank card portfolio generated approximately **$1.97M** in total spend with *
 
 The dashboard shows **853 active cards**, an **active card rate of 13.9%**, and an average of **53 transactions per card**.
 
-<img width="2816" height="1583" alt="Screenshot 2026-06-06 104250" src="https://github.com/user-attachments/assets/119e1985-4a23-4204-b414-69fa82fc918a" />
+<img width="2884" height="1626" alt="image" src="https://github.com/user-attachments/assets/fa74950e-6019-4393-a98f-c2af1eb45b22" />
 
 Card type performance:
 
@@ -158,7 +158,7 @@ Card type performance:
 
 The customer base includes **2,000 clients**, but only **301 active clients** are currently generating card activity.
 
-<img width="2845" height="1607" alt="Screenshot 2026-06-06 104430" src="https://github.com/user-attachments/assets/1438c865-a2ee-4453-ac53-1de70adb544b" />
+<img width="2889" height="1627" alt="image" src="https://github.com/user-attachments/assets/60fd9cef-bdb1-4388-b6e4-4c577647c25f" />
 
 Segment-level findings:
 
@@ -186,7 +186,7 @@ Segment-level findings:
 
 The Merchant Spend dashboard view shows approximately **$2.37M** in spend, **55K successful transactions**, an average transaction value of **$43.37**, and a **98.4% success rate**.
 
-<img width="2807" height="1584" alt="Screenshot 2026-06-06 104157" src="https://github.com/user-attachments/assets/1d1b32aa-8788-4bfe-86d2-889b92d0628f" />
+<img width="2883" height="1629" alt="image" src="https://github.com/user-attachments/assets/43ac40c6-9b41-4892-a388-dd49a0aa0d66" />
 
 Top merchant categories by spend:
 
@@ -214,7 +214,7 @@ Top merchant categories by spend:
 
 The Credit Risk page identifies **70 high-risk clients**, a **23.3% high-risk client rate**, an average credit score of **718**, and a DTI ratio of **1.27**.
 
-<img width="2556" height="1456" alt="Screenshot 2026-06-06 104133" src="https://github.com/user-attachments/assets/0bbbc25d-4af7-49b2-a852-7820a0264e39" />
+<img width="2879" height="1625" alt="image" src="https://github.com/user-attachments/assets/5e260657-859d-4427-b1c8-e631c98fed5b" />
 
 Risk distribution findings:
 
