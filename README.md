@@ -10,14 +10,6 @@
 
 This project analyzes bank card transaction performance and risk indicators using Power BI. The dashboard is designed to help business stakeholders monitor card spend, transaction success, customer value, merchant behavior, card product performance, and credit risk exposure in one centralized analytical report.
 
-The report is structured around five analytical views:
-
-- **Performance Overview**: Executive-level summary of spend, transaction volume, success rate, active card rate, and failure reasons.
-- **Customer Value**: Customer segmentation, active client behavior, spending by DTI category, and value drivers.
-- **Card Performance**: Card type and brand performance, active card opportunities, credit limit analysis, and product-level detail.
-- **Merchant Spend**: Merchant category spend, transaction count, average transaction value, and spend distribution by card type.
-- **Credit Risk**: High-risk client profile, credit score distribution, debt burden, DTI ratio, and risk segment detail.
-
 ## Business Objectives
 
 The main objective is to transform bank card data into actionable insights for performance monitoring, product optimization, customer growth, and credit risk management.
