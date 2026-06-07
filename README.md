@@ -89,7 +89,7 @@ The core problem was defined as:
 
 <img width="3839" height="2159" alt="Screenshot 2026-06-06 114401" src="https://github.com/user-attachments/assets/9625523e-7767-4b8b-8220-9a07830fa1cc" />
 
-## Detailed Insights
+## Detailed Dashboard
 
 ### 1. Performance Overview
 
