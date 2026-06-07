@@ -79,7 +79,7 @@ Key user pain points:
 - Transaction failure reasons need clearer prioritization.
 - Credit risk analysis needs to connect credit score, income group, debt exposure, and DTI ratio.
 
-<img width="3838" height="2158" alt="image" src="https://github.com/user-attachments/assets/a34ed622-af02-43a4-bdaf-30a20d237e62" />
+<img width="3839" height="2159" alt="Screenshot 2026-06-07 120013" src="https://github.com/user-attachments/assets/1263e560-81e8-4ce7-9d71-731b389184ab" />
 
 ### 2. Define
 
@@ -87,9 +87,11 @@ The core problem was defined as:
 
 > Bank card stakeholders need an interactive dashboard that connects portfolio performance, card product usage, customer value, merchant behavior, and credit risk so they can identify growth opportunities, operational issues, and risk exposure faster.
 
-<img width="3832" height="2159" alt="Screenshot 2026-06-06 114323" src="https://github.com/user-attachments/assets/d823f6a6-bd82-48e1-b64e-c94cb157c8e9" />
+<img width="3839" height="2159" alt="Screenshot 2026-06-07 120030" src="https://github.com/user-attachments/assets/53daaa7a-af51-4818-8134-ee308dff5efe" />
 
-<img width="3839" height="2158" alt="Screenshot 2026-06-06 114348" src="https://github.com/user-attachments/assets/74d09b15-8275-4134-90e5-580fa5253d79" />
+
+<img width="3839" height="2159" alt="Screenshot 2026-06-07 120044" src="https://github.com/user-attachments/assets/4f1dcb36-d9cf-44ec-baa2-70c638976bee" />
+
 
 ### 3. Ideate
 
@@ -101,7 +103,7 @@ The dashboard pages were organized into a business analysis flow:
 4. **Merchant Spend**: Investigate where customers spend and which merchant categories matter most.
 5. **Credit Risk**: End with portfolio risk, debt exposure, DTI pressure, and high-risk client segments.
 
-<img width="3839" height="2159" alt="Screenshot 2026-06-06 114401" src="https://github.com/user-attachments/assets/9625523e-7767-4b8b-8220-9a07830fa1cc" />
+<img width="3839" height="2159" alt="Screenshot 2026-06-07 120109" src="https://github.com/user-attachments/assets/2d841517-7ce4-49f6-809c-05ca61365596" />
 
 ## Detailed Dashboard
 
