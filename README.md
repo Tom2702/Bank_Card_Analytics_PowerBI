@@ -65,22 +65,6 @@ The core problem was defined as:
 
 ### 3. Ideate
 
-Several dashboard views were designed around the most important business decisions:
-
-- **Overview page** for leadership-level monitoring
-- **Customer Value page** for segmentation and growth opportunities
-- **Card Performance page** for product and activation analysis
-- **Merchant Spend page** for category-level spending and merchant strategy
-- **Credit Risk page** for credit quality and debt exposure monitoring
-
-Interaction ideas:
-
-- Year and month slicers for time-based analysis
-- Card type and card brand slicers for product comparison
-- Merchant category slicers for spend investigation
-- Income group and credit score filters for risk segmentation
-- Toggle-style views to switch between card type and card brand analysis
-
 <img width="3839" height="2159" alt="Screenshot 2026-06-06 114401" src="https://github.com/user-attachments/assets/9625523e-7767-4b8b-8220-9a07830fa1cc" />
 
 ### 4. Prototype
