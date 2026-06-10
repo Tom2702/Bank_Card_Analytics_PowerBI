@@ -186,7 +186,7 @@ Segment-level findings:
 
 The Merchant Spend dashboard view shows approximately **$2.37M** in spend, **55K successful transactions**, an average transaction value of **$43.37**, and a **98.4% success rate**.
 
-<img width="2888" height="1629" alt="image" src="https://github.com/user-attachments/assets/6d7350c2-0850-4fad-af7f-7cc358e03b3e" />
+<img width="2893" height="1630" alt="Screenshot 2026-06-10 150914" src="https://github.com/user-attachments/assets/3e597258-b6e3-490d-a1ea-59059b3f5607" />
 
 
 Top merchant categories by spend:
